@@ -6,7 +6,7 @@ const csv_to_array = (data, delimiter = ",", omitFirstRow = false) =>
     .split("\n")
     .map((v) => v.split(delimiter));
 
-console.log(csv_to_array("a,b\nc,d"));
-console.log(csv_to_array("what,does,this,do"));
-console.log(csv_to_array("a;b\nc;d", ";"));
-console.log(csv_to_array("head1,head2\na,b\nc,d", ",", true));
+console.log(csv_to_array("a,b\nc,d")); // [ [ 'a', 'b' ], [ 'c', 'd' ] ]
+console.log(csv_to_array("what,does,this,do")); // [ [ 'what', 'does', 'this', 'do' ] ]
+console.log(csv_to_array("a;b\nc;d", ";")); // [ [ 'a', 'b' ], [ 'c', 'd' ] ]
+console.log(csv_to_array("head1,head2\na,b\nc,d", ",", true)); // [ [ 'a', 'b' ], [ 'c', 'd' ] ]

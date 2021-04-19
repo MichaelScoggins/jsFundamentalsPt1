@@ -14,4 +14,4 @@ console.log(obj);
 console.log("-------------------------------------");
 result = rename_keys({ name: "firstName", job: "Actor" }, obj);
 console.log("New Object");
-console.log(result);
+console.log(result); // { firstName: 'Bobo', Actor: 'Programmer', shoeSize: 100 }
