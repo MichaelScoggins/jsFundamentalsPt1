@@ -10,3 +10,5 @@ const sortedLastIndex = (arr, n) => {
 console.log(sortedLastIndex([10, 20, 30, 30, 40], 30)); // 4
 
 //#Source https://bit.ly/2neWfJ2
+
+// would be nice if it mentioned the array was always going to be sorted

@@ -9,3 +9,5 @@ console.log(sortedIndex([5, 3, 2, 1], 4)); // 1
 console.log(sortedIndex([30, 50], 40)); // 1
 
 //#Source https://bit.ly/2neWfJ2
+
+// would be nice if it mentioned the array was always going to be sorted
