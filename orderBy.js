@@ -22,3 +22,5 @@ console.log(orderBy(users, ["name", "age"], ["asc", "desc"])); // [{"name":"barn
 console.log(orderBy(users, ["name", "age"])); // [{"name":"barney","age":36},{"name":"fred","age":40},{"name":"fred","age":48}]
 
 //#Source https://bit.ly/2neWfJ2
+
+// i dont know what the question is asking, nor do i know what the answer is answering
