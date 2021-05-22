@@ -24,3 +24,5 @@ console.log(
 ); // true
 
 //#Source https://bit.ly/2neWfJ2
+
+// ok well this is strange because this function is basically "Object.is()", but it doesn't even follow the same standards as a "deep comparison." e.g. the console.log should return false because the two objects are referenced in separate parts of memory, i.e. they are not "the same value." are we making a distinction between "equality" and "the same value?"
