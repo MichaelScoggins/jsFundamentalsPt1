@@ -15,3 +15,4 @@ console.log(group_By(["one", "two", "three"], "length")); // {"3":["one","two"],
 //#Source https://bit.ly/2neWfJ2
 
 // i cannot tell whatsoever what is going on in these console logs.
+// edit: oh, okay, i see now
