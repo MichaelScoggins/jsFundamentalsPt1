@@ -1,4 +1,4 @@
-// Initialize a two dimension array of given width and height and value
+// Initialize a two dimensional array of given width and height and value
 
 const initialize_2D_Array = (w, h, val = null) =>
   Array.from({ length: h }).map(() => Array.from({ length: w }).fill(val));
